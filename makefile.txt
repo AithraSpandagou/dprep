@@ -1,0 +1,4 @@
+datasets/data_filtered.RData: datasets/BLM2020_Dutch_elections16.csv \
+ 		datasets/BLM2021_Dutch_elections15.csv \
+		datasets/dataprep.R \
+ 	R CMD BATCH datasets/dataprep.R
